@@ -42,7 +42,7 @@ var sort5 = array.sorted{$0 > $1}
 
 //
 var sort6 = array.sorted(by: >)
-
+print(sort6)
 //7.自己实现冒泡
 //func sorted<T>(arr:[T], compare:(T,T) -> Bool) -> [T] {
 //    var arr =arr
